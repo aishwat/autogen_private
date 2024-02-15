@@ -5,14 +5,3 @@ content-type: application/json
 {
     "input": "Test Input"
 }
-
-#
-# SAMPLE RESPONSE
-#
-# {
-#   "choices": [
-#     "Sequi repellendus ea eligendi culpa iusto velit eius recusandae. Nulla perferendis quod. Autem necessitatibus aliquam ratione ipsa aspernatur.",
-#     "Minima aspernatur atque molestiae quisquam. Sit dolore quaerat perspiciatis. Amet saepe iusto perspiciatis laboriosam laboriosam autem.",
-#     "Quasi voluptatum quasi facilis eius temporibus. Eius eius quos laborum harum sint magnam placeat. Blanditiis aspernatur maxime ratione nisi animi non fuga aliquid ab."
-#   ]
-# }

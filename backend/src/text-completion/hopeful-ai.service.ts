@@ -6,13 +6,14 @@ interface HopefulAiResponse {
     text: string;
 }
 
-const minResponseTime = 50;
-const maxResponseTime = 100;
+const minResponseTime = 500;
+const maxResponseTime = 1000;
 const successRate = 1;
 
 @Injectable()
 export class HopefulAiService {
-    constructor(private readonly activityService: ActivityService) {}
+    constructor(private readonly activityService: ActivityService) {
+    }
 
     // This method stubs out making a post request to an actual LLM.
     // Instead we just return some dummy text.
