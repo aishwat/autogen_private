@@ -7,8 +7,9 @@ import { HopefulAiService } from "./hopeful-ai.service";
 
 @Module({
     controllers: [TextCompletionController],
-    providers: [TextCompletionService, RapidAiService, HopefulAiService],
+    providers: [TextCompletionService, HopefulAiService, RapidAiService],
     imports: [ActivityModule],
     exports: [],
 })
-export class TextCompletionModule {}
+export class TextCompletionModule {
+}
